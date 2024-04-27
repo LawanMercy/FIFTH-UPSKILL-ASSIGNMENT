@@ -1,10 +1,84 @@
-.{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    justify-content: center;
 }
 
 .profile-card{
-    background-color: aquamarine;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    width: 320px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-content: center;
+   outline: 3px solid rgb(8, 240, 8);
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(232, 245, 241);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div{
+    unicode-bidi: isolate;
+}
+
+.profile-picture{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    overflow: hidden;
+    outline: 2px solid rgb(15, 230, 66);
+}
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.profile-picture img{
+    width: 100%;
+    height: auto;
+}
+.name{
+    color: black;
     text-align: center;
+    font-size: large;
+ margin-top: 30px;
+}
+.job-title{
+    background-color: rgb(25, 189, 25);
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    border-radius: 12px;
+}
+
+.description{
+    text-align: left;
+    line-height: 1.5;
+}
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-block-end: 0px;
+    unicode-bidi: isolate;
 }
