@@ -35,7 +35,7 @@ div{
 }
 
 .profile-picture{
-    width: 140px;
+    width: 150px;
     height: 250px;
     margin-top: 20px;
     border-radius: 50%;
@@ -49,14 +49,15 @@ div{
 }
 
 .profile-picture img{
-    width: 100%;
-    height: auto;
+    width: 150px;
+    height: 200px;
+  
 }
 .name{
     color: black;
     text-align: center;
     font-size: large;
- margin-top: 30px;
+
 }
 .job-title{
     background-color: rgb(25, 189, 25);
@@ -66,7 +67,7 @@ div{
     font-size: 16px;
     padding: 10px 10px;
     margin-bottom: 15px;
-    margin-top: 30px;
+    margin-top: 20px;
     border-radius: 12px;
 }
 
@@ -85,4 +86,5 @@ p{
     margin-inline-start: 0px;
     margin-block-end: 0px;
     unicode-bidi: isolate;
+    margin-top: auto;
 }
